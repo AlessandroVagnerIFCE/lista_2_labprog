@@ -11,6 +11,19 @@ unsigned long int fatorial(unsigned long int x){
     }
 }
 
+//Poderia substituir a função recursiva por isso:
+/*
+
+int f, n;
+scanf("%d", &n);
+
+for (f = 1; n > 1; n--){
+    f *= n;
+}
+
+*/
+
+
 int main()
 {
     unsigned int f;
